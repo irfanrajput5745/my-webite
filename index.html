@@ -22,79 +22,82 @@
 <body>
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <!-- <div class="fix_logo">
+        <div class="fix_logo">
             <img src="assets/images/irfan logo.png" alt="">
-        </div> -->
+        </div>
         <div class="overlay-content">
-            <a href="#">HOME</a>
-            <a href="#">ABOUT US</a>
-            <a href="#">SKILLS</a>
-            <a href="#">PROJECTS</a>
-            <a href="#">CONTACT</a>
+            <a href="#main_banner_sec">HOME</a>
+            <a href="#about-sec">ABOUT US</a>
+            <a href="#skills-sec">SKILLS</a>
+            <a href="#fancybox-sec">PROJECTS</a>
+            <a href="#contact-sec">CONTACT</a>
         </div>
     </div>
 
-    <span class="toggle_btn" onclick="openNav()">&#9776</span>
+    <span class="toggle_btn">&#9776</span>
     <main>
-        <div class="main_header">
-            <div class="container-fluid top_head">
-                <div class="row no-gutters">
-                    <div class="col-md-12">
-                        <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
-                            <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();"
-                                onmouseout="this.start();">
-                                <a href="#">Welcome to [Muhammad IRFAN ISHAQ] Portfolio I am Front End Developer Contact
-                                    Number: 0335-2367488</a>
-                            </marquee>
+        <div id="main_banner_sec">
+            <div class="main_header">
+                <div class="container-fluid top_head">
+                    <div class="row no-gutters">
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                                <marquee class="news-scroll" behavior="scroll" direction="left"
+                                    onmouseover="this.stop();" onmouseout="this.start();">
+                                    <a href="#">Welcome to [Muhammad IRFAN ISHAQ] Portfolio I am Front End Developer
+                                        Contact
+                                        Number: 0335-2367488</a>
+                                </marquee>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <header>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <div class="logo">
+                                    <img src="assets/images/irfan logo.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 d-flex align-items-center">
+                                <div class="navigation">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="#about-sec">About</a></li>
+                                        <li><a href="#skills-sec">Skill</a></li>
+                                        <li><a href="#fancybox-sec">Projects</a></li>
+                                        <li><a href="#contact-sec">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-2 d-flex align-items-center">
+                                <div class="header-social-icon">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
             </div>
-            <header>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-4">
-                            <div class="logo">
-                                <img src="assets/images/irfan logo.png" alt="">
+            <div class="banner-bg">
+                <div class="main-banner-contant">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 d-flex align-items-start justify-content-center">
+                                <div class="banner_contant">
+                                    <div class="iam">I'<span> m </span></div>
+                                    <div class="annimationtext"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-lg-6 d-flex align-items-center">
-                            <div class="navigation">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="#about-sec">About</a></li>
-                                    <li><a href="#skills-sec">Skill</a></li>
-                                    <li><a href="#fancybox-sec">Projects</a></li>
-                                    <li><a href="#contact-sec">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-2 d-flex align-items-center">
-                            <div class="header-social-icon">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-        </div>
-        <div class="banner-bg">
-            <div class="main-banner-contant">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-6 d-flex align-items-start justify-content-center">
-                            <div class="banner_contant">
-                                <div class="iam">I'<span> m </span></div>
-                                <div class="annimationtext"></div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
-                            <div class="banner_img">
-                                <img src="assets/images/banner-img1.png" alt="">
+                            <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                                <div class="banner_img">
+                                    <img src="assets/images/banner.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -112,31 +115,40 @@
                                 <h1 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">About
                                     <span> Me</span>
                                 </h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium est impedit
-                                    debitis
-                                    voluptatum neque, deleniti hic praesentium ea eveniet similique nobis magnam
-                                    exercitationem culpa fuga tempora mollitia quaerat, modi perspiciatis aut?
-                                    Praesentium
-                                    ipsa blanditiis neque quam modi repudiandae, nostrum quis ratione fugiat quibusdam
-                                    inventore voluptas distinctio, earum dignissimos excepturi dolores.
+                                <p>"I am a passionate front-end web developer with a strong focus on crafting engaging
+                                    and user-friendly digital experiences. With over three years of experience in the
+                                    field, I have honed my skills in HTML, CSS, and JavaScript to create visually
+                                    appealing and responsive websites. My expertise also extends to utilizing modern
+                                    frameworks such as Bootstrap and React to build dynamic and interactive interfaces.
                                     <br>
-                                    Quasi tempora
-                                    consequuntur modi ut ad pariatur. Libero maxime iure expedita est, fugiat, neque
-                                    tempore
-                                    quae laborum optio repudiandae numquam voluptatibus, quam laboriosam! Similique
-                                    quasi
-                                    nam adipisci tenetur porro cumque voluptatibus ea ut laboriosam mollitia. Placeat
-                                    natus
-                                    aspernatur autem excepturi quis recusandae repudiandae quasi neque consequuntur, id
-                                    quo
-                                    accusamus deserunt.
+                                    My journey in web development began with completing a comprehensive training program
+                                    at Aptech, where I obtained a certificate in web development. This intensive program
+                                    provided me with a solid foundation in the core concepts and best practices of
+                                    front-end development. Through practical projects and hands-on experience, I gained
+                                    proficiency in creating clean and efficient code while adhering to industry
+                                    standards.
+                                    <br>
+                                    I am driven by my curiosity and enthusiasm for learning new technologies and staying
+                                    up-to-date with the latest trends in the ever-evolving web development landscape. My
+                                    approach to projects is characterized by a user-centric mindset, ensuring that the
+                                    end-users have an intuitive and seamless experience while navigating the websites I
+                                    create.
+                                    <br>
+                                    Apart from my technical skills, I am a strong believer in effective collaboration
+                                    and communication. I enjoy working closely with clients and teams to understand
+                                    their unique requirements and deliver tailored solutions that meet their objectives.
+                                    <br>
+                                    If you are looking for a dedicated and skilled front-end web developer who is
+                                    committed to delivering high-quality results, I would be thrilled to contribute to
+                                    your projects. Feel free to reach out to me through my portfolio website or connect
+                                    with me on LinkedIn."
                                 </p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
+                        <div class="col-12 col-lg-6 col-md-6 d-flex align-items-center" data-aos="zoom-in-up"
+                            data-aos-duration="1000" data-aos-easing="ease-in-out">
                             <div class="about_img about_card ">
-                                <img src="assets/images/img2.jpeg" alt="">
+                                <img src="assets/images/new_img.jpeg" alt="">
                             </div>
                         </div>
                     </div>
@@ -239,7 +251,7 @@
                                 <div class="fancy_card-body">
                                     <h5 class="fancy_card-title">TURO</h5>
                                     <div class="theme-group">
-                                        <a class="theme-btn" href="https://turo.customdev.devopdigital.com/">View
+                                        <a class="theme-btn" href="https://letgorental.com/">View
                                             Project</a>
                                     </div>
                                 </div>
@@ -256,7 +268,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-6 col-md-6" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000">
-                            <form>
+                            <form action="/your-form-action" netlify>
                                 <div class="row">
                                     <div class="col-12 col-lg-12">
                                         <div class="contact_heading" data-aos="flip-left"
@@ -265,16 +277,16 @@
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-6">
-                                        <label>First Name</label>
+                                        <label name="name">First Name</label>
                                         <input type="text">
                                     </div>
                                     <div class="col-12 col-lg-6">
-                                        <label>Last Name</label>
+                                        <label name="name">Last Name</label>
                                         <input type="text">
                                     </div>
                                     <div class="col-12 col-lg-12">
                                         <label>Email</label>
-                                        <input type="email">
+                                        <input type="email" type="email" name="email">
                                     </div>
                                     <div class="col-12 col-lg-12">
                                         <label>Address</label>
@@ -285,7 +297,7 @@
                                         <textarea rows="6"></textarea>
                                     </div>
                                     <div class="col-12 col-lg-12">
-                                        <a class="theme-btn" href="#">Submit</a>
+                                        <button class="theme-btn" type="submit">SUBMIT</button>
                                     </div>
                                 </div>
                             </form>
@@ -301,10 +313,7 @@
         </div>
         <!-- Map -->
         <div class="main_map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9585207.323737022!2d-15.017749771610164!3d54.08901960036049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2s!4v1686883475666!5m2!1sen!2s"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462117.0529750462!2d66.82580645015578!3d25.19345856506225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1688412928573!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <footer>
             <div class="main_footer">
@@ -313,9 +322,10 @@
                         <div class="col-12 col-lg-4 col-md-6 mb-md-5 m-0">
                             <!-- <h6>About Me</h6> -->
                             <img src="assets/images/irfan logo.png" class="img-fluid" alt="">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta velit sequi soluta et
-                                voluptas illo asperiores laborum sed ex laudantium!</p>
-                        </div>
+                            <p>Passionate front-end web developer with 3 years of experience. Expert in creating
+                                engaging and user-friendly websites using modern technologies. Dedicated to exceeding
+                                client expectations with attention to detail.</p>
+                        </div>                        
                         <div class="col-12 col-lg-4 col-md-6 mb-md-5 m-0">
                             <div class="social-icon">
                                 <h6>Keep conencted</h6>
@@ -369,13 +379,29 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="assets/js/function.js"></script>
     <script>
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-        }
 
-        function closeNav() {
+
+
+        const toggleBtn = document.querySelector(".toggle_btn")
+        toggleBtn.addEventListener("click", function (event) {
+            event.target.style.cssText = "display : none !important"
+            closebtn.style.cssText = "display : block !important"
+            document.getElementById("myNav").style.width = "100%";
+        })
+
+        const closebtn = document.querySelector(".closebtn")
+        closebtn.addEventListener("click", function (event) {
+            event.target.style.cssText = "display : none !important"
+            toggleBtn.style.cssText = "display : block !important"
             document.getElementById("myNav").style.width = "0%";
-        }
+        })
+        const navigationBtns = document.querySelectorAll(".overlay-content a")
+        navigationBtns.forEach(navigationBtn => {
+            navigationBtn.addEventListener("click", function (event) {
+                toggleBtn.style.cssText = "display : block !important"
+                document.getElementById("myNav").style.width = "0%";
+            })
+        });
     </script>
     <script>
         Fancybox.bind("[data-fancybox]", {
